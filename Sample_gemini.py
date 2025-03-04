@@ -3,7 +3,7 @@ import json
 import google.generativeai as genai
 
 # Configure Gemini API
-api_key = "AIzaSyCGzL50Q42SQ-KlYe5mOGBqYj7yUB445lM"
+api_key = "AIzaSyCGzL50Q42SQ"
 genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-1.5-pro")
 
